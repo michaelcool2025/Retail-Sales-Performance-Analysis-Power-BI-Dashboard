@@ -1,22 +1,23 @@
-# Retail-Sales-Performance-Analysis-Power-BI-Dashboard
 # 📊 Retail Sales Performance Analysis | Power BI Dashboard
 
-Hi 👋
-This project is a **Power BI dashboard** I built to explore and analyze retail sales performance across stores, products, and regions.
+[![Sales Dashboard](dashboard1.png)](https://www.linkedin.com/posts/michaelgamalyass_dataanalytics-powerbi-datastorytelling-activity-7422377864848695297-qEzb)
 
-The goal of this project is to turn raw sales data into **clear insights** that help understand sales trends, store performance, and product returns.
+Hi 👋
+I'm **Michael Gamal**, and in this project I built an **interactive Power BI dashboard** to analyze retail sales performance across stores, products, and regions.
+
+The goal of this project was to transform raw sales data into **clear insights and visual analytics** that help understand sales trends, store performance, and product returns.
 
 ---
 
 # 🎯 Project Objectives
 
-In this dashboard I wanted to answer a few important business questions:
+This dashboard helps answer important business questions such as:
 
 * How are sales performing over time?
 * Which stores generate the highest revenue?
 * What is the total quantity sold?
 * How many products are being returned?
-* Which locations are performing better than others?
+* Which regions are performing better than others?
 
 ---
 
@@ -29,7 +30,7 @@ The dashboard tracks several important KPIs:
 * **Returned Quantity:** 8K
 * **Total Quantity Sold:** 833K
 
-These KPIs provide a quick snapshot of overall business performance.
+These metrics provide a quick snapshot of overall business performance.
 
 ---
 
@@ -39,14 +40,13 @@ These KPIs provide a quick snapshot of overall business performance.
 
 This page focuses on the **overall sales performance**.
 
-It shows:
+It includes:
 
-* Total Sales
-* Net Sales after returns
-* Total quantity sold
+* Sales KPIs
 * Sales trends by **year and month**
 * Store performance comparison
 * Sales distribution by location
+* Interactive filters
 
 📷 Dashboard Preview
 
@@ -56,16 +56,14 @@ It shows:
 
 ## 2️⃣ Performance Overview
 
-This page highlights **high-level performance indicators**.
+This page highlights **high-level business performance indicators**.
 
 It includes:
 
 * Best performing store
 * Worst performing store
 * Maximum product returns
-* Sales from the last year
-
-This page is designed to give a **quick executive summary** of business performance.
+* Sales in the latest year
 
 📷 Dashboard Preview
 
@@ -73,22 +71,14 @@ This page is designed to give a **quick executive summary** of business performa
 
 ---
 
-# 🧠 Key Insights
+# 🧱 Data Model
 
-From this analysis we can quickly observe:
+Below is the data model used in this project.
+The model follows a **Star Schema structure** to improve performance and simplify analysis.
 
-* **Store 13** is the top performing store with the highest sales.
-* **Salem** appears to generate the highest revenue among cities.
-* Sales show a noticeable increase from **1997 to 1998**.
-* Product returns represent a relatively **small portion of total sales**, which indicates healthy product performance.
+![Data Model](Screenshot%202026-03-15%20230009.png)
 
----
-
-# 🗂 Data Model
-
-The project uses a **Star Schema data model** to improve performance and simplify analysis.
-
-Main tables used:
+Main tables used in the model:
 
 * Sales
 * Customers
@@ -100,12 +90,27 @@ Main tables used:
 
 ---
 
+# 🗂 Dataset Files
+
+You can access the dataset files used in this project below:
+
+* [Calendar Dataset](Calendar.csv)
+* [Customers Dataset](Customers.csv)
+* [Products Dataset](Products.csv)
+* [Region Dataset](Region.csv)
+* [Returns Dataset](Returns.csv)
+* [Sales 2017 Dataset](Sales%202017.csv)
+* [Sales 2018 Dataset](Sales%202018.csv)
+
+These datasets were used to build the **Power BI data model and dashboard analysis**.
+
+---
+
 # 🛠 Tools & Skills Used
 
 * Power BI
+* DAX
 * Data Modeling
-* DAX Measures
 * Data Visualization
-* Business Insight Analysis
-
+* Business Data Analysis
 
